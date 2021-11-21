@@ -1,5 +1,5 @@
 # under testing
-	Under construction! still adding more functions yet!
+	Under construction! still adding more functions!
 # Examples of How To Use 
 
 from fun_with_py import fun_with_py as fwp
