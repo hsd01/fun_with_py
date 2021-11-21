@@ -1,6 +1,6 @@
-##under testing
+# under testing
 	Under construction! still adding more functions yet!
-##Examples of How To Use 
+# Examples of How To Use 
 
 from fun_with_py import fun_with_py as fwp
 
