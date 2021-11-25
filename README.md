@@ -5,13 +5,13 @@
 from fun_with_py.strings import String
 from fun_with_py.number import Numeric
 
-<<<<<<< HEAD
+
 s = String("hello vowels and consonants")
-=======
+
 
 s = fwp("hello vowels and consonants")
 
->>>>>>> refs/remotes/origin/main
+
 print(s.vowelsInString())
 
 print(s.consonantsInString())
