@@ -4,7 +4,7 @@ __status__ = "planning"
 
 import os
 
-class fun_with_py:
+class String:
     """
     Class for the fun_with_py.
     Attributes
@@ -20,7 +20,9 @@ class fun_with_py:
         vowelsInString : returns a value in string 
         consonantsInString : returns a value in string 
         vowelsCount : returns a value in integer 
-        consonantsCount : returns a value in integer 
+        consonantsCount : returns a value in integer
+        isPalindrome : return True if the given string is palindrome
+        reverse : return reverse string         
     """
     def __init__(self, string):
         """
@@ -79,5 +81,23 @@ class fun_with_py:
             else:
                 consonant.append(i)
         return len(consonant)
-        
+
+    def isPalindrome(self):
+        """
+        return True if the given string is palindrome
+        """    
+        val = self.value[::-1]
+        if self.value == val:
+            return True
+        else:
+            return False
+
+    def reverse(self):
+        """
+        return reverse string
+        """
+        return self.value[::-1]
+
+
+
 
