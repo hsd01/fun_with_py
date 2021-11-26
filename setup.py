@@ -7,9 +7,9 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.1.0'
-DESCRIPTION = 'vowels and consonants count and seperate'
-LONG_DESCRIPTION = 'A package that allows to identify vowels and consonants in string'
+VERSION = '2.0.0'
+DESCRIPTION = 'Strings and numbers'
+LONG_DESCRIPTION = 'A package that allows to identify vowels and consonants in stringand reverse numbers and find divisible'
 
 # Setting up
 setup(

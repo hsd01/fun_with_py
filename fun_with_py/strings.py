@@ -32,7 +32,7 @@ class String:
         string : str
             takes string  
         """
-        self.value = string
+        self.__value = string
 
     def vowelsInString(self):
         """
@@ -40,7 +40,7 @@ class String:
         """
         vowel = []
         vow = list('aeiouAEIOU')
-        for i in self.value:
+        for i in self.__value:
             if i in vow:
                 vowel.append(i)
         return ''.join(vowel)
@@ -51,7 +51,7 @@ class String:
         """
         consonant = []
         vow = list(' aeiouAEIOU')
-        for i in self.value:
+        for i in self.__value:
             if i in vow:
                 pass
             else:
@@ -64,7 +64,7 @@ class String:
         """
         vowel = []
         vow = list('aeiouAEIOU')
-        for i in self.value:
+        for i in self.__value:
             if i in vow:
                 vowel.append(i)
         return len(vowel)
@@ -75,7 +75,7 @@ class String:
         """
         consonant = []
         vow = list(' aeiouAEIOU')
-        for i in self.value:
+        for i in self.__value:
             if i in vow:
                 pass
             else:
@@ -86,8 +86,8 @@ class String:
         """
         return True if the given string is palindrome
         """    
-        val = self.value[::-1]
-        if self.value == val:
+        val = self.__value[::-1]
+        if self.__value == val:
             return True
         else:
             return False
@@ -96,7 +96,7 @@ class String:
         """
         return reverse string
         """
-        return self.value[::-1]
+        return self.__value[::-1]
 
 
 

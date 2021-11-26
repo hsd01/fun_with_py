@@ -3,6 +3,11 @@ class Numeric:
     Class for the fun_with_py.
     Attributes
     ----------
+    __author__ = "HSD, Hemant S D"
+    __email__ = "ashuhemantsingh@gmail.com"
+    __status__ = "planning"
+
+
     Private:
         None
         
@@ -13,19 +18,18 @@ class Numeric:
     Public:
         reverse : returns reverse of numbers 
         isMultipleOf : returns true if given number is multiple of it 
-         : returns a value in integer 
-        consonantsCount : returns a value in integer 
+         
     """
     def __init__(self, number):
         """
         Creates a new instance of 
         Parameters
         ----------
-        string : str
-            takes string  
+        number : integer
+            takes integer  
         """
-        self.value = number
-        if type(self.value) == int or type(self.value) == float:
+        self.___value = number
+        if type(self.__value) == int or type(self.__value) == float:
             pass
         else:
             print("Please input a numeric value not string this might cause error")
@@ -35,7 +39,7 @@ class Numeric:
         """
         return reverse integer
         """
-        val = str(self.value)
+        val = str(self.__value)
         val = val[::-1]
         return int(val)
 
@@ -43,7 +47,7 @@ class Numeric:
         """
         return true if it is divisible by given number
         """
-        val = self.value
+        val = self.__value
         if val%num == 0:
             return True
         else:
