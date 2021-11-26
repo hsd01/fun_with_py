@@ -8,9 +8,6 @@
 
 	s = String("hello vowels and consonants")
 
-
-	s = fwp("hello vowels and consonants")
-
 	print(s.vowelsInString())
 
 	print(s.consonantsInString())
@@ -18,6 +15,7 @@
 	print(s.vowelsCount())
 
 	print(s.consonantsCount())
+	
 	num = Numeric(24)
 	print(num.reverse())
 	print(num.isMultipleOf(4))
