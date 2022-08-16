@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 import codecs
 import os
-
+import time 
+time.sleep(1)
 here = os.path.abspath(os.path.dirname(__file__))
 
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
